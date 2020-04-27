@@ -1,4 +1,4 @@
-# _Stardew Harvest Crossing_
+# _[Stardew Harvest Crossing](URL_HERE)_
 
 #### _Epicodus Project, Team Week April 27, 2020_
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-_This webpage allows users to enter a date and determine the day of the week. The purpose of this project is to practice bundling with Webpack and employing test driven development practices._
+_This webpage allows a user to care for plants using using time interval events and an interactive interface built with the Phaser JavaScript framework. We hope to be able to have our character move around the farm as a sprite. We also plan on having APIs involved in our website and making it work alongside our code. There will be fail conditions in the game, such as forgetting to take care of your pets, or allowing your plants to die, etc._
 
 ## Setup/Installation Requirements
 
@@ -36,7 +36,11 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 ### Specs
 | Spec | Input | Output |
 | :------------- | :------------- | :------------- |
-
+| **Game displays initial plot of land** | User Input:”Click-Start” | Output: “Game begins with empty plot of land”” |
+| **User is able to plant seeds** | User Input:”Plant seed” | Output: “Planted seed display in farm grid” |
+| **User is able to water plants** | User Input:”Water plant” | Output: “Watered dirt display in farm grid” |
+| **Plants grow according to quality of care at set intervals** | User Input:”Water plant-wait 30s” | Output: “Sprout display in farm grid” |
+| **User is able to harvest plants** | User Input:”Harvest” | Output: “Plant has been added to inventory” |
 
 
 ### License

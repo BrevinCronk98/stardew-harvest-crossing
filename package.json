@@ -37,7 +37,9 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "file-loader": "^6.0.0",
+    "http-server": "^0.12.2",
     "jquery": "^3.4.1",
+    "phaser": "^3.23.0",
     "popper.js": "^1.15.0",
     "url-loader": "^4.1.0"
   }
